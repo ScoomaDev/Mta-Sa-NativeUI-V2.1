@@ -225,13 +225,13 @@ end)
 
 
 
-function CreatePool(_title,_stitle,_image,useBackSpace)
+function CreatePool(_title,_stitle,_image,_useBackSpace)
     currentUse = 1
     if not _title then return outputDebugString("unable to get menu title") end 
     local id = 1 
      _image = _image or "NORMALE.png"
      _stitle = _stitle or ""
-     _useBackSpace = _useBackSpace or true 
+     
 
      table.insert(windows,{
 
